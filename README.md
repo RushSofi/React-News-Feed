@@ -33,7 +33,7 @@
 
 Пример как должно получиться:
 
-![image](https://github.com/user-attachments/assets/b09392cf-37dd-4e47-be3f-2491766fcf26)
+![example1](./example1.png)
 
 
 ## Часть 2. Доработка ленты новостей
@@ -50,7 +50,7 @@
 ### 5. Использование контекста:
 Создать контекст для управления глобальным состоянием темы и использовать его в компонентах.
 
-![image](https://github.com/user-attachments/assets/098d63ae-4266-4137-b196-b1abc7be4863)
+![example2](./example2.png)
 
 
 ## Что должно получиться

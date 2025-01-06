@@ -1,0 +1,63 @@
+.createPostForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: var(--button-bg);
+}
+
+.createPostForm h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.createPostForm input,
+.createPostForm textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.createPostForm textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.addButton {
+  padding: 10px 15px;
+  border: 1px solid var(--create-post-form-button-border);
+  border-radius: 4px;
+  background-color: var(--create-post-form-button);
+  color: var(--text-color);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: var(--create-post-form-button-hover);
+}
+
+.cancelButton {
+  background-color: var(--create-post-form-cancel-button);
+  color: var(--text-color);
+  border: 1px solid var(--create-post-form-cancel-button-border);
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: var(--create-post-form-cancel-button-hover);
+}

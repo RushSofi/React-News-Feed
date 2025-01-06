@@ -1,0 +1,98 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.postContainer img {
+  max-height: 400px;
+  align-self: center;
+}
+
+.postContainer p {
+  font-size: 20px;
+}
+
+.postContainer h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.postContainer h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.commentsSection {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--button-bg);
+}
+
+.comment p {
+  margin: 0;
+}
+
+.comment .deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.comment .deleteButton img {
+  width: 20px;
+  height: 20px;
+}
+
+.commentForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}
+
+.commentForm input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.commentForm button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--create-post-form-button);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.commentForm button:hover {
+  background-color: var(--create-post-form-button-hover);
+}
+
+.postDeleteButton {
+  position: absolute;
+  top: 80px;
+  right: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.postDeleteButton img {
+  width: 32px;
+  height: 32px;
+}
